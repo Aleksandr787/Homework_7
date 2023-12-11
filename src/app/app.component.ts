@@ -1,14 +1,29 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  imports: [],
+  template: `<h1>Hello world!</h1>`,
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'Homework7';
+  title = 'homes';
 }
+
+// import { Component } from '@angular/core';
+// import { CommonModule } from '@angular/common';
+// import { RouterOutlet } from '@angular/router';
+
+// @Component({
+//   selector: 'app-root',
+//   standalone: true,
+//   imports: [CommonModule, RouterOutlet],
+//   template: `<h1>Hello world!</h1>`,
+//   templateUrl: './app.component.html',
+//   styleUrl: './app.component.scss'
+// })
+// export class AppComponent {
+//   title = 'homes';
+// }
+
